@@ -1,0 +1,47 @@
+body{
+    background: rgb(216, 214, 214);
+    margin:0;
+}
+div{
+    box-sizing: border-box;
+}
+header{
+    background: white;
+    padding:10px;
+}
+header h1{
+    margin:0;
+}
+div.post { 
+    background: white;
+    margin-top: 2px;
+
+}
+div.container {
+    width: 500px;
+    margin:auto;
+}    
+div.post img{
+    width: 100%;
+    
+}
+div.post .titdate div:first-child{
+    display:inline-block;
+    width: 70%;
+   
+}
+div.post .titdate div:last-child{
+    display:inline-block;
+    width:30%;
+    text-align: right;
+    
+    
+}
+div.post h2{
+    padding: 5px;
+}
+div.post p{
+    padding:5px;
+    text-align: justify;
+    margin-top: 2px;
+}
